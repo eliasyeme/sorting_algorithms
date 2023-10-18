@@ -2,18 +2,6 @@
 #include <stdbool.h>
 
 /**
-	* swap - swap two integers
-	* @lhs: first integer
-	* @rhs: second integer
-	*/
-void swap(int *lhs, int *rhs)
-{
-	int tmp = *lhs;
-	*lhs = *rhs;
-	*rhs = tmp;
-}
-
-/**
 	* bubble_sort - bubble sort integer array
 	* @array: the array to sort
 	* @size: size of the array to sort
