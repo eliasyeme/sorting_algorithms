@@ -42,3 +42,15 @@ void print_list(const listint_t *list)
     }
     printf("\n");
 }
+
+/**
+	* swap - swap two integers
+	* @lhs: first integer
+	* @rhs: second integer
+	*/
+void swap(int *lhs, int *rhs)
+{
+	int tmp = *lhs;
+	*lhs = *rhs;
+	*rhs = tmp;
+}
